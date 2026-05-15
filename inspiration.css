@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  background-color: #f31a1a;
+  background: radial-gradient(circle, #f31a1a, #ffffff);
+}
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f31a1a;
+  color: white;
+  padding: 15px 30px;
+  border: #f31a1a solid 10px;
+  border-radius: 55px;
+  margin: 30px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0px;
+  padding: 0px;
+}
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 40px;
+}
+.nav-links a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+.logo {
+  mix-blend-mode: multiply;
+  height: auto;
+  width: 100px;
+}
+
+.section2-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  background-color: #f31a1a;
+  width: auto;
+  justify-content: space-between;
+  height: 100%;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 75px;
+  overflow-x: auto;
+}
+
+.card1-1,
+.card2-1,
+.card3-1 {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 300px;
+  max-width: 300px;
+  background-color: #f31a1a;
+  border-radius: 15px;
+  padding: 0;
+  margin: 0;
+  gap: 30px;
+}
+.body-header {
+  text-align: center;
+  color: white;
+  background-color: #f31a1a;
+  padding: 20px;
+  border: #f31a1a solid 10px;
+  border-radius: 75px;
+  margin: 70px;
+}
+.card1-1-img,
+.card2-1-img,
+.card3-1-img {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+.card1-1-text,
+.card2-1-text,
+.card3-1-text {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  background-color: #f31a1a;
+  background: radial-gradient(circle, #f31a1a, #ffffff);
+}
