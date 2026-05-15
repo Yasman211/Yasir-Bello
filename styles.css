@@ -125,7 +125,6 @@ img {
   height: auto;
   margin: 30px 30px;
   border-radius: 75px;
-  background: radial-gradient(circle, #f31a1a, #ffffff);
 }
 .card1,
 .card2,
@@ -167,7 +166,6 @@ img {
   color: white;
   font-size: 17px;
   background: radial-gradient(circle, #f31a1a, #ffffff);
-
   padding: 90px 50px;
 }
 .quote-by {
